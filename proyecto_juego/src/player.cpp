@@ -64,7 +64,7 @@ void player::callInput()
         //cout << "El jugador se mueve izquierda" << endl;
         break;
     case 'x':
-        cout << " -- Juego Terminado -- :(" << endl << endl;
+        cout << " -- Muchas gracias por jugar el juego ha terminado -- :(" << endl << endl;
         drawCreditos();
         cout << endl;
         exit(0);
